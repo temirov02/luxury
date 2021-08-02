@@ -1,0 +1,103 @@
+.createStart {
+    padding: 64px 200px;
+
+    .createBegin {
+        h2 {
+            font-family: 'Adobe Garamond Pro';
+            font-style: normal;
+            font-weight: bold;
+            font-size: 44px;
+            line-height: 60px;
+            text-align: center;
+            letter-spacing: 0.05em;
+            color: #14274A;
+            width: 100%;
+        }
+
+        p {
+            padding: 25px 20px 50px;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: normal;
+            font-size: 22px;
+            line-height: 22px;
+            text-align: center;
+            color: #14274A;
+        }
+    }
+
+    .carouselActive {
+        margin: 60px 0;
+    }
+
+    .createCarousel {
+
+        .carouselName {
+            .carouselText {
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: bold;
+                font-size: 34px;
+                line-height: 72px;
+                color: #FFFFFF;
+                text-align: center;
+                background: #14274A;
+            }
+        }
+
+        .carouselMenu {
+            border: 2px solid #14274A;
+            box-sizing: border-box;
+            border-radius: 0px 0px 10px 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 50px 60px;
+
+            .menuStart {
+                display: flex;
+                align-items: center;
+
+                a {
+                    text-decoration: none;
+                    color: #fff;
+                    background-color: #E0B973;
+                    padding: 0 9px;
+                    border-radius: 50%;
+                    font-size: 22px;
+                }
+
+                p {
+                    margin-left: 30px;
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 18px;
+                    line-height: 22px;
+                    color: #14274A;
+                }
+            }
+
+            .menuEnd {
+                button {
+                    font-family: 'Montserrat';
+                    padding: 5px 20px;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 18px;
+                    line-height: 22px;
+                    color: #fff;
+                    border: none;
+                    border-radius: 6px;
+                    background-color: #E0B973;
+                    transition: all.2s;
+
+                    &:hover {
+                        font-size: 20px;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}

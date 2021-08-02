@@ -1,0 +1,13 @@
+
+*,body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: sans-serif;
+}
+p,img,h1,h2,h3,Nav.Link{
+    padding: 0;
+    margin: 0;
+}

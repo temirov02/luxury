@@ -1,0 +1,125 @@
+.conactusCss {
+    padding-bottom: 250px;
+
+    .contactStart {
+        margin-bottom: 70px;
+
+        h2 {
+            font-family: 'Adobe Garamond Pro';
+            font-style: normal;
+            font-weight: bold;
+            font-size: 44px;
+            line-height: 60px;
+            letter-spacing: 0.05em;
+            color: #14274A;
+            width: 100%;
+            padding-top: 30px;
+        }
+
+        p {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: normal;
+            font-size: 22px;
+            line-height: 22px;
+            color: #14274A;
+            max-width: 960px;
+            width: 100%;
+        }
+    }
+
+    .contactEnd {
+        .pStart {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 35px;
+            color: #14274A;
+            max-width: 250px;
+            width: 100%;
+        }
+
+        .pEnd {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: normal;
+            font-size: 22px;
+            line-height: 35px;
+            color: #14274A;
+        }
+
+        button {
+            margin-top: 10px;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-size: 22px;
+            line-height: 35px;
+            color: black;
+            border: none;
+            background: inherit;
+            font-weight: bold;
+        }
+    }
+
+    .inputBase {
+        form {
+            display: flex;
+            flex-direction: column;
+
+            label {
+                font-family: Arial;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 18px;
+                line-height: 29px;
+                color: #14274A;
+            }
+
+            input {
+                font-weight: bold;
+                font-size: 16px;
+                color: #14274A;
+                outline: none;
+                margin-bottom: 20px;
+                max-width: 300px;
+                width: 100%;
+                border: 2px solid rgba(20, 39, 74, 0.5);
+            }
+
+            textarea {
+                font-weight: bold;
+                color: #14274A;
+                outline: none;
+                margin-bottom: 20px;
+                max-width: 300px;
+                width: 100%;
+                border: 2px solid rgba(20, 39, 74, 0.5);
+            }
+
+        }
+
+        .buttonEnd {
+            display: flex;
+            justify-content: flex-end;
+            padding: 0 245px;
+
+            button {
+                text-transform: uppercase;
+                align-items: center;
+                background-color: #E0B973;
+                border: none;
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: bold;
+                font-size: 18px;
+                line-height: 22px;
+                color: #FFFFFF;
+                padding: 8px 12px;
+                border-radius: 2px;
+            }
+        }
+
+    }
+
+}

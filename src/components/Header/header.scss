@@ -1,0 +1,238 @@
+.HomeBackground {
+    background-image: url(../../img/header.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    padding-bottom: 30px;
+}
+
+.FacilitiesBackground {
+    background-image: url(../../img/header21.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    padding-bottom: 30px;
+}
+
+.RoomsBackground {
+    background-image: url(../../img//header31.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    padding-bottom: 30px;
+
+}
+
+.ContactUsBackground {
+    background: #14274A;
+
+    .header1 {
+        display: none;
+
+        h1 {
+            display: none;
+        }
+
+        span {
+            display: none;
+        }
+    }
+
+    .header2 {
+        display: none;
+    }
+    .header-button{
+        display: none;
+    }
+  
+    .headerEnd {
+        display: none;
+
+        .headerText {
+            display: none;
+        }
+
+        .headerLogo {
+            display: none;
+        }
+    }
+
+    .headerActive {
+        display: block;
+        text-align: center;
+        padding: 0 0 100px;
+        margin-top: 30px;
+
+        h2 {
+            text-transform: uppercase;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: bold;
+            font-size: 64px;
+            line-height: 70px;
+            color: #FFFFFF;
+        }
+    }
+
+
+}
+
+.navbar-menu {
+    display: none;
+    .menuBar {
+        img {
+            display: none;
+        }
+    }
+
+}
+
+.startNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0 0;
+
+    .mainHeader {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    img {
+        width: 140px;
+    }
+
+    .menuBar {
+        display: none;
+    }
+
+    .activeLink {
+        display: flex;
+        align-items: center;
+
+        li {
+            a {
+                text-decoration: none;
+                color: #fff;
+                margin-right: 50px;
+                font-size: 22px;
+                line-height: 30px;
+                font-weight: 600;
+                &:hover {
+                    border-bottom: 2px solid#fff;
+                }
+            }
+        }
+    }
+}
+
+.header1 {
+    width: 100%;
+    font-size: 38px;
+    line-height: 40px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-top: 140px;
+
+    h1 {
+        font-size: 110px;
+        line-height: 100px;
+        width: 100%;
+    }
+
+    span {
+        font-weight: bold;
+        font-size: 50px;
+        line-height: 50px;
+        letter-spacing: 0.4em;
+        color: #FFFFFF;
+        width: 100%;
+    }
+}
+
+.headerActive {
+    display: none;
+}
+
+.header2 {
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    max-width: 500px;
+    padding-bottom: 75px;
+}
+
+.header-button {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+
+    .btn {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 30px;
+        background: #E0B973;
+        border-radius: 5px;
+        transition: all.2s;
+        &:hover{
+            font-size: 25px;
+            cursor: pointer;
+        }
+
+        a {
+            display: flex;
+            align-items: center;
+            text-transform: uppercase;
+            color: #fff;
+            text-decoration: none;
+            text-align: center;
+        }
+    }
+}
+
+.headerEnd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+
+    .headerText {
+        font-weight: bold;
+        font-size: 25px;
+        line-height: 30px;
+        letter-spacing: 0.05em;
+        color: #FFFFFF;
+        padding-bottom: 10px;
+    }
+
+    .headerLogo {
+        color: #000;
+        background: #fff;
+        border-radius: 50%;
+        font-size: 25px;
+        padding: 3px 8px;
+        transition: all.2s;
+        &:hover{
+            font-size: 27px;
+            cursor: pointer;
+            background-color: black;
+            color: white;
+        }
+    }
+}
